@@ -1,14 +1,14 @@
+
 .index {
     flex:1;
 }
 .swiper {
     width: 100%;
-    height: 100;
+    height: 200px;
 }
 .item {
     background-color: aqua;
-    width: 100%;
-    height: 100;
+    @extend .swiper
 }
 .item1 {
     @extend .item;
@@ -21,4 +21,28 @@
 .item3 {
     @extend .item;
     background-color: pink;
+}
+.view1 {
+    width: 100%;
+    height: 100px;
+    background-color: brown;
+}
+.text1 {
+    color: aquamarine;
+    font-size: 80px;
+}
+.view2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.hitem {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -17,15 +17,16 @@ export default class Index extends Component {
   render () {
     return (
       <View className='index'>
+        <Text>this is rn conponent</Text>
         <Swiper className='swiper' autoplay circular >
           <SwiperItem >
           <View className='item'>1</View>
           </SwiperItem>
           <SwiperItem >
-          <View className='item1'>1</View>
+          <View className='item1'>2</View>
           </SwiperItem>
           <SwiperItem >
-          <View className='item2'>1</View>
+          <View className='item2'>3</View>
           </SwiperItem>
         </Swiper>
         <View className='view1'/>
