@@ -12921,6 +12921,13 @@ react-native-modal-popover@^0.0.12:
     lodash.debounce "^4.0.8"
     prop-types "^15.6.2"
 
+react-native-reanimated@^1.13.1:
+  version "1.13.3"
+  resolved "https://registry.nlark.com/react-native-reanimated/download/react-native-reanimated-1.13.3.tgz#fb0e1d582c8866015140f2159e147ffe6e798a3a"
+  integrity sha1-+w4dWCyIZgFRQPIVnhR//m55ijo=
+  dependencies:
+    fbjs "^1.0.0"
+
 react-native-root-siblings@^3.1.0:
   version "3.2.3"
   resolved "https://registry.nlark.com/react-native-root-siblings/download/react-native-root-siblings-3.2.3.tgz?cache=0&sync_timestamp=1620812521745&other_urls=https%3A%2F%2Fregistry.nlark.com%2Freact-native-root-siblings%2Fdownload%2Freact-native-root-siblings-3.2.3.tgz#df5a1cff3a3a1f433f57320e1cae719f1b15a3f2"

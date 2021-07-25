@@ -1,7 +1,7 @@
 {
   "miniprogramRoot": "./dist",
-  "projectname": "taro_rn",
-  "description": "taro rn",
+  "projectname": "taro_sass_rn",
+  "description": "taro sass demo",
   "appid": "touristappid",
   "setting": {
     "urlCheck": true,

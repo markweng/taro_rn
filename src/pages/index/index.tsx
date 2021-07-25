@@ -1,6 +1,6 @@
 import { Component } from 'react'
-import { View, Text } from '@tarojs/components'
-import './index.styl'
+import { View, Text ,Swiper} from '@tarojs/components'
+import './index.scss'
 
 export default class Index extends Component {
 
@@ -17,7 +17,12 @@ export default class Index extends Component {
   render () {
     return (
       <View className='index'>
-        <Text>Hello world!</Text>
+        <Swiper className='swiper' autoplay circular>
+          <View className='item'/>
+          <View className='item1'/>
+          <View className='item2'/>
+          <View className='item3'/>
+        </Swiper>
       </View>
     )
   }
